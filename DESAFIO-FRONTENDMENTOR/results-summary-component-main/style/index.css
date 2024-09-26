@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,500&display=swap');
+
+*{
+
+  font-family: "Hanken Grotesk", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
+
+}
+
+
+
+body{
+  height: 100vh  ;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+section{
+  display: flex;
+  overflow: hidden;
+  height: 510px;
+  width: 735px;
+  border-radius: 32px;
+  background-color: rgb(255, 255, 255);
+}
+h1{
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+#container-left{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 31px;
+  height: 100%;
+  width: 50%;
+}
+#number-nota{
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+
+}
+span{
+  color: hsl(252, 100%, 67%);
+  font-weight: 500;
+}
+#circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  background-color: beige;
+  height: 200px;
+  width:200px ;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+#footer-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-bottom: 40px;
+
+}
+
+h2{
+  font-size: 24px ;
+  font-weight: 550;
+  margin-bottom:  10px;;
+}
+p{
+  text-align: center;
+  font-size: 14px;
+  
+  width: 55%;
+}
+
+/*LADO DIREITO*/
+
+#container-right{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 31px;
+  height: 100%;
+  width: 50%;
+}
+#summary{
+  width: 290px;
+  margin-top: 20px;
+  color: hsl(224, 30%, 27%);;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.itens{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;    
+  overflow: hidden;
+  margin: 10px;
+  width: 290px;
+  height: 55px;
+  border-radius: 14px;
+  background-color: rgb(209, 209, 209);
+}
+.imgTitulo{
+  display: flex;
+  align-items: center;
+}
+.img{ margin-right: 15px;}
+button{
+  width: 290px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: hsl(224, 30%, 27%);
+  margin-bottom: 35px;
+}
